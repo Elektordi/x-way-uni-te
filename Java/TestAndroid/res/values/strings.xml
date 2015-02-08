@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">IG2I Train Control</string>
+    <string name="header">*** IG2I: Maquette du train - Panneau de contrôle ***</string>
+    <string name="title">IG2I Train Controller - Powered by Android</string>
+    <string name="loading">Connexion à la salle du train... Veuillez patienter...</string>
+</resources>

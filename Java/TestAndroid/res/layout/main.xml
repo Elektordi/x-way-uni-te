@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/header"
+        android:padding="3dip" />
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TableRow>
+            <TextView
+                android:text="Loco 1:"
+                android:gravity="center"
+                android:padding="10dip" />
+            <TextView
+                android:text="Loco 2:"
+                android:gravity="center"
+                android:padding="10dip" />
+            <TextView
+                android:text="Loco 3:"
+                android:gravity="center"
+                android:padding="10dip" />
+        </TableRow>
+        <TableRow>
+            <ToggleButton android:id="@+id/loco1"
+                android:layout_width="150dip"
+                android:layout_height="150dip"
+                android:padding="50dip"
+                android:textOff="STOP"
+                android:textOn="GO !" />
+            <ToggleButton android:id="@+id/loco2"
+                android:layout_width="150dip"
+                android:layout_height="150dip"
+                android:padding="50dip"
+                android:textOff="STOP"
+                android:textOn="GO !" />
+            <ToggleButton android:id="@+id/loco3"
+                android:layout_width="150dip"
+                android:layout_height="150dip"
+                android:padding="50dip"
+                android:textOff="STOP"
+                android:textOn="GO !" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>
+
+
