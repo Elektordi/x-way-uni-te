@@ -59,6 +59,12 @@ public class XipDriver extends GenericXWayDriver {
     public XipDriver(String addr, JXWayAddress local) throws IOException {
         this(InetAddress.getByName(addr), local);
     }
+    
+    public void close() throws IOException {
+        out.close();
+        in.close();
+        socket.close();
+    }
 
     @Override
     protected boolean send(Stack<Integer> data) {
