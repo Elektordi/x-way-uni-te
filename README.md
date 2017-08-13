@@ -3,6 +3,8 @@ X-Way-UNI-TE Open Source Project
 
 Open-source implementation(s) of UNI-TE communication over X-Way
 
+[![gitcheese.com](https://s3.amazonaws.com/gitcheese-ui-master/images/badge.svg)](https://www.gitcheese.com/donate/users/1229473/repos/26116201)
+
 ## Presentation
 
 X-Way and UNI-TE (used in Unitelway and similar) are communication protocols for old
