@@ -10,7 +10,7 @@ Open-source implementation(s) of UNI-TE communication over X-Way
 X-Way and UNI-TE (used in Unitelway and similar) are communication protocols for old
 Schneider Electrics PLCs (Programmable Logic Controllers), formerly "Modicon
 Télémécanique".
-The aim of this open-source project is to create a Java library to sens and
+The aim of this open-source project is to create a Java library to sen and
 receive such data, because there is actually no open-source project at all in
 this field.
 Keep in mind that those protocols are old and not maintained anymore by any
